@@ -1,0 +1,20 @@
+*{
+    border: 1px solid black;
+}
+
+.content{
+    margin-left:10%;
+    margin-right:10%;
+}
+header {
+    background-color: aliceblue;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.noflex {
+    display:block;
+}
