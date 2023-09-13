@@ -5,14 +5,47 @@
 .content{
     margin-left:10%;
     margin-right:10%;
+    background-color: #1F2937;
+    height: 1080px;
 }
+
+.one{
+    justify-content: center;
+    flex-basis: auto;
+    font-size: 48px;
+    font-weight:bold;
+    color: #f9faf8;
+}
+
+.two{
+    flex-basis: auto;
+    align-self: stretch;
+}
+
+.three{
+    flex-basis: auto;
+}
+
+.flexwrap{
+    flex-direction: column;
+    flex:1;
+    align-items: stretch;
+    justify-content: center;
+}
+
 header {
-    background-color: aliceblue;
+    background-color: #1F2937;
+    flex-basis: auto;
 }
 
 .flex {
     display: flex;
     justify-content: space-between;
+    flex-basis: auto;
+}
+
+a{
+    margin-top:15%;
 }
 
 .noflex {
