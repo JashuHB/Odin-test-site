@@ -10,20 +10,37 @@
 }
 
 .one{
-    justify-content: center;
-    flex-basis: auto;
-    font-size: 48px;
-    font-weight:bold;
-    color: #f9faf8;
+    height:25%;
+    color: #F9FaF8;
+    font:48px bold;
 }
 
 .two{
-    flex-basis: auto;
-    align-self: stretch;
+    display: flex;
+    height:25%;
+    background-color: #f9faf8;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .three{
-    flex-basis: auto;
+    height:25%;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    flex-direction: column;
+    
+}
+
+.four{
+    background-color: #f9faf8;
+    height:25%;
+}
+
+.piz{
+    border-radius: 5%;
+    border: 5px solid blue;
+    height:100px;
+    width:100px;
 }
 
 .flexwrap{
