@@ -1,21 +1,38 @@
-*{
+/* *{
     border: 1px solid black;
-}
+} */
 
 .content{
-    margin-left:10%;
-    margin-right:10%;
-    background-color: #1F2937;
-    height: 1080px;
+    /* margin-left:30%; */
+    /* margin-right:30%; */
+    
+    height: 720px;
 }
 
 .one{
+    /* margin-left: 20%;
+    margin-right: 20%; */
     height:25%;
+    background-color: #1F2937;
     color: #F9FaF8;
-    font:48px bold;
+    font:1rem bold;
+}
+
+.one-a{
+
+}
+
+.one-b{
+
+}
+
+.button{
+    background-color: #3882f6;
 }
 
 .two{
+    /* margin-left: 20%;
+    margin-right: 20%; */
     display: flex;
     height:25%;
     background-color: #f9faf8;
@@ -24,16 +41,41 @@
 }
 
 .three{
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    display: flex;
     height:25%;
     background-color: #e5e7eb;
     color: #1f2937;
     flex-direction: column;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 .four{
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    display: flex;
     background-color: #f9faf8;
     height:25%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.call-to-action{
+    display:flex;
+    background-color: #3882f6;
+    width: 75%;
+    height: 35%;
+    border-radius: 5px;
+    align-self: center;
+}
+
+footer{
+    background-color: #1F2937;
+    height:15%;
+    width:100%;
 }
 
 .piz{
@@ -53,6 +95,8 @@
 header {
     background-color: #1F2937;
     flex-basis: auto;
+    /* margin-left: 20%;
+    margin-right: 20%; */
 }
 
 .flex {
